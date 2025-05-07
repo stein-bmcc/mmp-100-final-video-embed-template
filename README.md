@@ -11,24 +11,31 @@ For this you will edit index.html and upload your video to the media folder.
 To use this template you will need to:
 
 1. Upload your video file to YouTube.
-2. On your Video Page on YouTube
+2. On your Video's Page on YouTube
+   
     1. Click the Share button
     2. Click the Embed icon
     3. Copy the iframe element – All of it.
-3. Delete the iframe that is on this page.
-4. Paste in the iframe you copied in the same spot.
-5. Change the figcaption content to fit your video. If you made it then give yourself credit.
-4. Change all of the instances of YOUR_NAME in the header and footer.
-5. Change the text in the h1 from Your Project Name to your project's name.
-6. Delete these instructions
-7. You can also change the CSS to update the styling if you like (not required).
+       
+3. Edit __index.html__
+	5. Delete the iframe that is on this page.
+	6. Paste in the iframe you copied in the same spot.
+	7. Change the figcaption content to fit your video. If you made it then give yourself credit.
+	4. Change all of the instances of YOUR_NAME in the header and footer.
+	5. Change the text in the h1 from Your Project Name to your project's name.
+	6. Delete the instructions in index.html. You can also remove the content on this page by either removing or changing the README.md file.
+4. [optional] You can also edit style.css and change the CSS to update the styling if you like (not required).
 
 ### Different Aspect Ratios
 
-In order to make the embedded video responsive, there is some special CSS that is applied to a div around the iframe. This CSS is different for different aspect ratio videos. Most video is 16:9 aspect ratio and if yours is, you won't have to change anything. If you have a 4:3 video or other ratio then you will have to update the class in the video wrapper. Here are two examples
+In order to make the embedded video responsive, there is some special CSS that is applied to a div around the iframe. This CSS is different for different aspect ratio videos. 
+
+__Most video is 16:9 aspect ratio and if yours is, you won't have to change anything.__ 
+
+If you have a 4:3 video or other ratio then you will have to update the class in the video wrapper. Here are two examples
 
  #### 16:9 Aspect Ratio
- This is what is already there.
+ This is what is already there. No change needed for this.
 ```
 <div class="videoWrapper ratio-16-9">
 
