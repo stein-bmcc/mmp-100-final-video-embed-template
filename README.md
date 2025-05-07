@@ -18,13 +18,15 @@ To use this template you will need to:
     3. Copy the iframe element – All of it.
        
 3. Edit __index.html__
-	5. Delete the iframe that is on this page.
-	6. Paste in the iframe you copied in the same spot.
-	7. Change the figcaption content to fit your video. If you made it then give yourself credit.
+   
+	1. Delete the iframe that is on this page.
+	2. Paste in the iframe you copied in the same spot.
+	3. Change the figcaption content to fit your video. If you made it then give yourself credit.
 	4. Change all of the instances of YOUR_NAME in the header and footer.
 	5. Change the text in the h1 from Your Project Name to your project's name.
 	6. Delete the instructions in index.html. You can also remove the content on this page by either removing or changing the README.md file.
-4. [optional] You can also edit style.css and change the CSS to update the styling if you like (not required).
+
+5. [optional] You can also edit style.css and change the CSS to update the styling if you like (not required).
 
 ### Different Aspect Ratios
 
